@@ -53,18 +53,18 @@ sh build.sh rust_geos --release
   Downloaded libc v0.2.174
   Downloaded pyo3 v0.25.1
   Downloaded 30 crates (3.5 MB) in 8.48s (largest was `pyo3` at 1.1 MB)
-🔗 Found pyo3 bindings
-🐍 Found CPython 3.11 at /opt/venv/bin/python3
-📡 Using build options features from pyproject.toml
-   Compiling rust_geos v0.1.0 (/workspaces/pyo3-geos/rust_geos)
-    Finished `release` profile [optimized] target(s) in 9.25s
-🖨  Copied external shared libraries to package rust_geos.libs directory:
-    /usr/lib/x86_64-linux-gnu/libgeos_c.so.1.17.1
-    /usr/lib/x86_64-linux-gnu/libgeos.so.3.11.1
-📦 Built wheel for CPython 3.11 to /workspaces/pyo3-geos/rust_geos/target/wheels/rust_geos-0.1.0-cp311-cp311-manylinux_2_34_x86_64.whl
-Processing ./target/wheels/rust_geos-0.1.0-cp311-cp311-manylinux_2_34_x86_64.whl
-Installing collected packages: rust-geos
-Successfully installed rust-geos-0.1.0
+  🔗 Found pyo3 bindings
+  🐍 Found CPython 3.11 at /opt/venv/bin/python3
+  📡 Using build options features from pyproject.toml
+    Compiling rust_geos v0.1.0 (/workspaces/pyo3-geos/rust_geos)
+      Finished `release` profile [optimized] target(s) in 9.25s
+  🖨  Copied external shared libraries to package rust_geos.libs directory:
+      /usr/lib/x86_64-linux-gnu/libgeos_c.so.1.17.1
+      /usr/lib/x86_64-linux-gnu/libgeos.so.3.11.1
+  📦 Built wheel for CPython 3.11 to /workspaces/pyo3-geos/rust_geos/target/wheels/rust_geos-0.1.0-cp311-cp311-manylinux_2_34_x86_64.whl
+  Processing ./target/wheels/rust_geos-0.1.0-cp311-cp311-manylinux_2_34_x86_64.whl
+  Installing collected packages: rust-geos
+  Successfully installed rust-geos-0.1.0
 ```
 
 <br>
