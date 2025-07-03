@@ -1,0 +1,39 @@
+{
+    "name": "rust_geos",
+    "postCreateCommand": "sh ./post-create-command.sh",
+    "build": {
+        "dockerfile": "Dockerfile",
+        "context": ".."
+    },
+    "mounts": [
+        "source=${localEnv:USERPROFILE}/.gitconfig,target=/root/.gitconfig,type=bind",
+        "source=${localEnv:USERPROFILE}/.ssh/id_rsa,target=/root/.ssh/id_rsa,type=bind",
+        "source=${localEnv:USERPROFILE}/.ssh/id_rsa.pub,target=/root/.ssh/id_rsa.pub,type=bind"
+    ],
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "editor.wordWrap": "wordWrapColumn",
+                "editor.wordWrapColumn": 120,
+                "terminal.integrated.shell.linux": "/bin/bash"
+			},
+			"extensions": [
+                "ms-python.python",
+				"ms-python.vscode-pylance",
+                "mhutchie.git-graph",
+                "ms-python.debugpy",
+                "hediet.debug-visualizer",
+                "Meezilla.json",
+                "njpwerner.autodocstring",
+                "ms-azuretools.vscode-docker",
+                "ms-toolsai.jupyter",
+                "eamodio.gitlens",
+				"vadimcn.vscode-lldb",
+				"mutantdino.resourcemonitor",
+				"rust-lang.rust-analyzer",
+				"tamasfe.even-better-toml",
+				"serayuzgur.crates"
+			]
+		}
+	}
+}
