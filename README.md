@@ -6,7 +6,7 @@ This repository uses the [image](/.devcontainer/Dockerfile) named `rust:1.82` fo
 2. Clone the repository.
 
     ```
-    git clone https://github.com/PARKCHEOLHEE-lab/segment-selector.git
+    git clone https://github.com/PARKCHEOLHEE-lab/pyo3-geos.git
     ```
 
 3. Open the project with VSCode.
